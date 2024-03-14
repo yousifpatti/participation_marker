@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Marker</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance Marker</h1>
+        <input type="text" id="studentId" placeholder="Enter Student ID (DF:XXXXXXXX)">
+        <input type="text" id="sheetName" placeholder="Enter Excel Sheet Name">
+        <button onclick="markAttendance()">Mark Attendance</button>
+        <button onclick="dumpSheet()">Done</button>
+        <button onclick="resetForm()">Reset</button>
+        <p id="message"></p>
+        <div id="attendanceList"></div> <!-- Add a div to display the attendance list -->
+    </div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
