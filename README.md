@@ -1,10 +1,10 @@
-# Attendance Marker
+# Participation Marker
 
-The Attendance Marker project is designed to help track the attendance of ENGG7811 students. It provides a convenient way to mark attendance and keep a record of attendance data.
+The Participation Marker project is designed to help track the participation of ENGG7811 students. It provides a convenient way to mark participation and keep a record of participation data.
 
 ## Installation
 
-To install the Attendance Marker project, please follow these steps:
+To install the Participation Marker project, please follow these steps:
 
 1. Ensure that you have Python 3 installed on your system. If not, you can download and install it from the official Python website (https://www.python.org).
 
@@ -22,6 +22,11 @@ To install the Attendance Marker project, please follow these steps:
 
 ## Usage
 
-Once the installation is complete, you can use the Attendance Marker project by running 
+Once the installation is complete, you can use the Participation Marker project by:
+
+1) On a terminal, run 
     ```python3 app.py```
-    at the top level of the project.
+    at the top level of the project
+
+2) On a browser, go to
+http://127.0.0.1:5000/ to load the app

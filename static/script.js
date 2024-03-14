@@ -72,7 +72,7 @@ function getAttendanceList() {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             var response = JSON.parse(xhr.responseText);
             var attendanceList = response.attendanceList;
-            var attendanceHTML = "<h3>Attendance List</h3><ul>";
+            var attendanceHTML = "<h3>Participation List</h3><ul>";
             attendanceList.forEach(function(item) {
                 attendanceHTML += `<li>${item[0]} - ${item[1]} - ${item[2]} ${item[3]}</li>`;
             });
