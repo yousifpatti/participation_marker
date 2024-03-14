@@ -17,6 +17,7 @@ function markAttendance() {
             var response = JSON.parse(xhr.responseText);
             document.getElementById("message").innerText = response.message;
             document.getElementById("studentId").value = "";
+            document.getElementById("studentId").focus();
             getAttendanceList(); // Refresh attendance list after marking attendance
         }
     };
