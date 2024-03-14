@@ -22,4 +22,6 @@ To install the Attendance Marker project, please follow these steps:
 
 ## Usage
 
-Once the installation is complete, you can use the Attendance Marker project by running python3 app.py at the top level of the project.
+Once the installation is complete, you can use the Attendance Marker project by running 
+    ```python3 app.py```
+    at the top level of the project.
