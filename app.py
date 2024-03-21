@@ -20,6 +20,8 @@ def index():
 @app.route('/mark-attendance', methods=['POST'])
 def mark_attendance():
     student_id = request.json['studentId'].replace('DF:', '')
+    if (student_id in attendance_data):
+        return jsonify({'message': 'Attendance already marked at position: ' + str(attendance_data.index(student_id) + 1)}), 404
 
     # Check if student ID exists
     if student_id in students_data['ID'].values:
