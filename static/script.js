@@ -72,16 +72,19 @@ function getAttendanceList() {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             var response = JSON.parse(xhr.responseText);
             var attendanceList = response.attendanceList;
-            var attendanceHTML = "<h3>Participation List</h3><ul>";
+            var attendanceHTML = "<h3>Participation List</h3><ol>";
+
             attendanceList.forEach(function(item) {
                 attendanceHTML += `<li>${item[0]} - ${item[1]} - ${item[2]} ${item[3]}</li>`;
             });
-            attendanceHTML += "</ul>";
+            
+            attendanceHTML += "</ol>";
             document.getElementById("attendanceList").innerHTML = attendanceHTML;
         }
     };
     xhr.send();
 }
+
 
 // Function to update error message when typing a new user
 document.getElementById("studentId").addEventListener("input", function() {
