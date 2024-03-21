@@ -1,6 +1,16 @@
 # Participation Marker
 
-The Participation Marker project is designed to help track the participation of ENGG7811 students. It provides a convenient way to mark participation and keep a record of participation data.
+The Participation Marker project is designed to help track the participation of UQ students. It provides a convenient way to mark participation and keep a record of participation data.
+
+## Features
+Can provide:
+
+1. Accepts entry format `DFXXXXXXX`
+2. Automatic entry after ID card scan complete and refocus on entry field
+3. Automatic details lookup using student ID number
+4. Automatic date and time of scan added `YYYY-MM-DD HH:MM:SS`
+5. Ability to view scanned students on the fly
+6. Ability to name and download an excel sheet of the students scanned
 
 ## Installation
 
