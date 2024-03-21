@@ -5,7 +5,7 @@ The Participation Marker project is designed to help track the participation of 
 ## Features
 Can provide:
 
-1. Accepts entry format `DFXXXXXXX`
+1. Accepts entry format `DF:XXXXXXX`
 2. Automatic entry after ID card scan complete and refocus on entry field
 3. Automatic details lookup using student ID number
 4. Automatic date and time of scan added `YYYY-MM-DD HH:MM:SS`
