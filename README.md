@@ -1,6 +1,16 @@
 # Participation Marker
 
-The Participation Marker project is designed to help track the participation of ENGG7811 students. It provides a convenient way to mark participation and keep a record of participation data.
+The Participation Marker project is designed to help track the participation of UQ students. It provides a convenient way to mark participation and keep a record of participation data.
+
+## Features
+Can provide:
+
+1. Accepts entry format `DF:XXXXXXX`
+2. Automatic entry after ID card scan complete and refocus on entry field
+3. Automatic details lookup using student ID number
+4. Automatic date and time of scan added `YYYY-MM-DD HH:MM:SS`
+5. Ability to view scanned students on the fly
+6. Ability to name and download an excel sheet of the students scanned
 
 ## Installation
 
@@ -24,6 +34,7 @@ To install the Participation Marker project, please follow these steps:
 
 Once the installation is complete, you can use the Participation Marker project by:
 
+0) On top level of the project, provide `students.xlsx` with table headers `Last Name|First Name|ID`
 1) On a terminal, run 
     ```python3 app.py```
     at the top level of the project
