@@ -24,6 +24,7 @@ To install the Participation Marker project, please follow these steps:
 
 Once the installation is complete, you can use the Participation Marker project by:
 
+0) On top level of the project, provide `students.xlsx` with table headers `Last Name|First Name|ID`
 1) On a terminal, run 
     ```python3 app.py```
     at the top level of the project
